@@ -7,5 +7,8 @@ typedef struct
 } vector;
 
 vector sum(vector*,vector*);
+vector sub(vector*,vector*);
+vector cross(vector*,vector*);
+int dot(vector*,vector*);
 	
 #endif

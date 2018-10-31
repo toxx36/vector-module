@@ -2,9 +2,7 @@
 
 vector sum(vector *a, vector *b)
 {
-	vector out;
-	out.a = a->a+b->a;
-	out.b = a->b+b->b;
-	out.c = a->c+b->c;
-	return out;
+	return (vector){a->a+b->a,
+			a->b+b->b,
+			a->c+b->c};
 }
