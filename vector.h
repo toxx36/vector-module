@@ -6,6 +6,6 @@ typedef struct
 	int a,b,c;
 } vector;
 
-vector sum(vector *a,vector *b);
+vector sum(vector*,vector*);
 	
 #endif
